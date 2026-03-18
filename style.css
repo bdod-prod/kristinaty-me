@@ -21,7 +21,7 @@
         .hero-text { flex: 1; padding-top: 0.25rem; }
         .hero-label { font-size: 0.85rem; color: var(--color-accent); letter-spacing: 0.06em; text-transform: uppercase; font-weight: 500; margin-bottom: 0.5rem; }
         .hero h1 { font-family: var(--font-display); font-size: 3rem; font-weight: 400; line-height: 1.1; letter-spacing: -0.02em; }
-        .hero-description { font-size: 1.1rem; line-height: 1.7; color: var(--color-text-secondary); max-width: 560px; margin-bottom: var(--space-md); }
+        .hero-description { font-size: 1.1rem; line-height: 1.7; color: var(--color-text-secondary); max-width: 600px; margin-bottom: var(--space-md); }
         .hero-writing-at { display: flex; align-items: center; gap: 0.75rem; font-size: 0.85rem; color: var(--color-text-secondary); }
         .hero-writing-at span { flex-shrink: 0; }
         .hero-logo-link { display: inline-flex; align-items: center; text-decoration: none; transition: opacity 0.2s; }
@@ -49,7 +49,7 @@
         /* ── About page ─────────────────────────────────────────── */
         .about { max-width: var(--max-width); width: 100%; margin: 0 auto; padding: var(--space-lg) var(--space-md) var(--space-md); flex: 1; }
         .about-header { display: flex; align-items: flex-start; gap: 2rem; margin-bottom: var(--space-lg); }
-        .about-photo { width: 140px; height: 140px; border-radius: 50%; object-fit: cover; object-position: center top; border: 2px solid var(--color-border); padding: 5px; background: var(--color-bg); flex-shrink: 0; }
+        .about-photo { width: 200px; height: 200px; border-radius: 50%; object-fit: cover; object-position: center top; border: 2px solid var(--color-border); padding: 5px; background: var(--color-bg); flex-shrink: 0; }
         .about-header-text { flex: 1; padding-top: 0.25rem; }
         .about h1 { font-family: var(--font-display); font-size: 2.8rem; font-weight: 400; line-height: 1.1; letter-spacing: -0.02em; margin-bottom: 0.5rem; }
         .about-subtitle { font-size: 1.05rem; color: var(--color-accent); font-weight: 500; }
@@ -88,6 +88,6 @@
             .article-preview-link { flex-wrap: wrap; gap: 0.3rem; } .article-preview-pub { min-width: auto; }
             .social-links { flex-direction: column; gap: var(--space-sm); }
             .nav { padding: var(--space-sm); } .home { padding-left: var(--space-sm); padding-right: var(--space-sm); }
-            .about h1 { font-size: 2rem; } .about-header { flex-direction: column; gap: 1.25rem; } .about-photo { width: 110px; height: 110px; } .about { padding-left: var(--space-sm); padding-right: var(--space-sm); }
+            .about h1 { font-size: 2rem; } .about-header { flex-direction: column; gap: 1.25rem; } .about-photo { width: 150px; height: 150px; } .about { padding-left: var(--space-sm); padding-right: var(--space-sm); }
             .writing h1 { font-size: 2rem; } .writing { padding-left: var(--space-sm); padding-right: var(--space-sm); }
         }
