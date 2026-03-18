@@ -34,7 +34,9 @@
         .article-preview-link { display: flex; align-items: baseline; gap: var(--space-sm); padding: 0.85rem 0; border-bottom: 1px solid var(--color-border); text-decoration: none; transition: background 0.15s; }
         .article-preview-link:first-child { border-top: 1px solid var(--color-border); }
         .article-preview-link:hover .article-preview-title { text-decoration: underline; text-decoration-color: var(--color-accent); text-underline-offset: 3px; }
-        .article-preview-pub { font-size: 0.8rem; font-weight: 500; flex-shrink: 0; min-width: 75px; } . { color: #F93262; } . { color: #8115FD; }
+        .article-preview-pub { font-size: 0.8rem; font-weight: 500; flex-shrink: 0; min-width: 75px; }
+        .article-preview-pub.elfsight { color: #F93262; }
+        .article-preview-pub.beamtrace { color: #8115FD; }
         .article-preview-title { font-size: 0.95rem; color: var(--color-text); flex: 1; }
         .article-preview-arrow { color: var(--color-text-secondary); flex-shrink: 0; opacity: 0; transition: opacity 0.15s; }
         .article-preview-link:hover .article-preview-arrow { opacity: 1; }
