@@ -16,9 +16,9 @@
         .nav-links a:hover { color: var(--color-text); }
         .home { max-width: var(--max-width); width: 100%; margin: 0 auto; padding: var(--space-lg) var(--space-md) var(--space-md); flex: 1; }
         .hero { padding-bottom: var(--space-lg); border-bottom: 1px solid var(--color-border); margin-bottom: var(--space-lg); }
-        .hero-intro { display: flex; align-items: flex-start; gap: 2rem; margin-bottom: var(--space-md); }
+        .hero-intro { display: flex; align-items: center; gap: 2rem; margin-bottom: var(--space-sm); }
         .hero-photo { width: 140px; height: 140px; border-radius: 50%; object-fit: cover; object-position: center top; border: 2px solid var(--color-border); padding: 5px; background: var(--color-bg); flex-shrink: 0; }
-        .hero-text { flex: 1; padding-top: 0.25rem; }
+        .hero-text { flex: 1; }
         .hero-label { font-size: 0.85rem; color: var(--color-accent); letter-spacing: 0.06em; text-transform: uppercase; font-weight: 500; margin-bottom: 0.5rem; }
         .hero h1 { font-family: var(--font-display); font-size: 3rem; font-weight: 400; line-height: 1.1; letter-spacing: -0.02em; }
         .hero-description { font-size: 1.1rem; line-height: 1.7; color: var(--color-text-secondary); max-width: 600px; margin-bottom: var(--space-md); }
