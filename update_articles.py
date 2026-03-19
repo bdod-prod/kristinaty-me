@@ -59,7 +59,7 @@ def fetch_article_urls(author_url, pattern):
         href = a["href"].split("?")[0].rstrip("/") + "/"
         if re.match(pattern, href) and href not in seen:
             seen.append(href)
-    return seen
+    return seen[:6]
 
 
 def fetch_article_meta(url):
