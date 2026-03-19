@@ -1,3 +1,52 @@
 {
-  "articles": []
+  "articles": [
+    {
+      "url": "https://elfsight.com/blog/how-to-create-a-chatbot-knowledge-base/",
+      "title": "How to Create a Chatbot Knowledge Base: Setup & Training Guide",
+      "description": "Learn how to build an AI chatbot knowledge base that actually works. Step-by-step content preparation, setup, and testing for non-technical business owners.",
+      "date": "2026-03-17",
+      "publisher": "Elfsight",
+      "pub_class": "elfsight"
+    },
+    {
+      "url": "https://elfsight.com/blog/how-to-write-chatbot-scripts-and-instructions/",
+      "title": "How to Write Chatbot Scripts and AI Instructions That Work",
+      "description": "Learn how to write effective chatbot scripts and instructions using the role-to-escalation framework. Includes before/after examples and research insights.",
+      "date": "2026-03-16",
+      "publisher": "Elfsight",
+      "pub_class": "elfsight"
+    },
+    {
+      "url": "https://elfsight.com/blog/ai-chatbot-vs-live-chat/",
+      "title": "AI Chatbot vs. Live Chat: Which Is Better for Your Business?",
+      "description": "Surveys show customers prefer humans, yet 67% choose chatbots when available. Here's the data-backed framework to decide which approach fits your needs.",
+      "date": "2026-03-13",
+      "publisher": "Elfsight",
+      "pub_class": "elfsight"
+    },
+    {
+      "url": "https://elfsight.com/blog/what-is-an-ai-chatbot/",
+      "title": "What Is an AI Chatbot? Definition, Types & How They Work",
+      "description": "Learn what AI chatbots are, how they work using NLP and machine learning, what they're used for, and how to choose the right type for your website.",
+      "date": "2026-03-10",
+      "publisher": "Elfsight",
+      "pub_class": "elfsight"
+    },
+    {
+      "url": "https://elfsight.com/blog/chatbot-statistics-and-trends/",
+      "title": "Chatbot Statistics: AI Chatbot Market Size, Usage & Future Trends",
+      "description": "Discover the latest chatbot statistics for 2025–2026: market size, adoption rates, AI traffic share, customer service costs, ROI data, and industry trends.",
+      "date": "2026-02-26",
+      "publisher": "Elfsight",
+      "pub_class": "elfsight"
+    },
+    {
+      "url": "https://elfsight.com/blog/chatbot-pros-and-cons/",
+      "title": "Chatbot Pros and Cons: An Honest Assessment for SMBs",
+      "description": "Real data on chatbot benefits and drawbacks: costs, failure rates, customer sentiment, and what separates effective deployments from wasted budgets.",
+      "date": "2026-02-20",
+      "publisher": "Elfsight",
+      "pub_class": "elfsight"
+    }
+  ]
 }
