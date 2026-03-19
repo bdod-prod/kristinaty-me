@@ -53,7 +53,10 @@
         .about-photo { width: 200px; height: 200px; border-radius: 50%; object-fit: cover; object-position: center top; border: 2px solid var(--color-border); padding: 5px; background: var(--color-bg); flex-shrink: 0; }
         .about-header-text { flex: 1; padding-top: 0.25rem; }
         .about h1 { font-family: var(--font-display); font-size: 2.8rem; font-weight: 400; line-height: 1.1; letter-spacing: -0.02em; margin-bottom: 0.5rem; }
-        .about-subtitle { font-size: 1.05rem; color: var(--color-accent); font-weight: 500; }
+        .about-subtitle { font-size: 1.05rem; color: var(--color-accent); font-weight: 500; margin-bottom: 0.3rem; }
+        .about-orgs { font-size: 0.95rem; color: var(--color-text-secondary); }
+        .about-orgs a { color: var(--color-text-secondary); text-decoration: none; }
+        .about-orgs a:hover { color: var(--color-text); text-decoration: underline; text-decoration-color: var(--color-accent); }
         .about-bio { font-size: 1.05rem; line-height: 1.75; margin-bottom: var(--space-md); }
         .about-education { font-size: 0.95rem; color: var(--color-text-secondary); margin-bottom: var(--space-lg); }
         .about-focus { font-size: 1rem; line-height: 1.7; color: var(--color-text-secondary); padding: var(--space-md); background: var(--color-surface); border-radius: 8px; margin-bottom: var(--space-lg); border-left: 3px solid var(--color-accent); }
