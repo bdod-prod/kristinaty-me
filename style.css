@@ -10,7 +10,8 @@
         a { color: var(--color-text); text-decoration-color: var(--color-border); text-underline-offset: 3px; transition: text-decoration-color 0.2s; }
         a:hover { text-decoration-color: var(--color-accent); }
         .nav { display: flex; justify-content: space-between; align-items: baseline; padding: var(--space-md); max-width: 900px; width: 100%; margin: 0 auto; }
-        .nav-name { font-family: var(--font-display); font-size: 1.15rem; text-decoration: none; color: var(--color-text); }
+        .nav-name { font-family: var(--font-display); font-size: 1.15rem; text-decoration: none; color: var(--color-text); transition: text-decoration-color 0.2s; }
+        .nav-name:hover { text-decoration: underline; text-decoration-color: var(--color-accent); text-underline-offset: 3px; }
         .nav-links { display: flex; gap: var(--space-md); }
         .nav-links a { font-size: 0.9rem; color: var(--color-text-secondary); text-decoration: none; transition: color 0.2s; }
         .nav-links a:hover { color: var(--color-text); }
