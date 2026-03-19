@@ -20,7 +20,6 @@
         .hero-intro { display: flex; align-items: center; gap: 2rem; margin-bottom: var(--space-sm); }
         .hero-photo { width: 140px; height: 140px; border-radius: 50%; object-fit: cover; object-position: center top; border: 2px solid var(--color-border); padding: 5px; background: var(--color-bg); flex-shrink: 0; }
         .hero-text { flex: 1; }
-        .hero-label { font-size: 0.85rem; color: var(--color-accent); letter-spacing: 0.06em; text-transform: uppercase; font-weight: 500; margin-bottom: 0.5rem; }
         .hero h1 { font-family: var(--font-display); font-size: 3rem; font-weight: 400; line-height: 1.1; letter-spacing: -0.02em; }
         .hero-description { font-size: 1.1rem; line-height: 1.7; color: var(--color-text-secondary); max-width: 600px; margin-bottom: var(--space-md); }
         .hero-writing-at { display: flex; align-items: center; gap: 0.75rem; font-size: 0.85rem; color: var(--color-text-secondary); }
@@ -58,7 +57,6 @@
         .about-orgs a { color: var(--color-text-secondary); text-decoration: none; }
         .about-orgs a:hover { color: var(--color-text); text-decoration: underline; text-decoration-color: var(--color-accent); }
         .about-bio { font-size: 1.05rem; line-height: 1.75; margin-bottom: var(--space-md); }
-        .about-education { font-size: 0.95rem; color: var(--color-text-secondary); margin-bottom: var(--space-lg); }
         .about-focus { font-size: 1rem; line-height: 1.7; color: var(--color-text-secondary); padding: var(--space-md); background: var(--color-surface); border-radius: 8px; margin-bottom: var(--space-lg); border-left: 3px solid var(--color-accent); }
         .about-links { border-top: 1px solid var(--color-border); padding-top: var(--space-md); }
         .about-links h2 { font-family: var(--font-display); font-size: 1.5rem; font-weight: 400; margin-bottom: var(--space-sm); }
@@ -67,8 +65,6 @@
         .about-link-list li a { font-size: 0.95rem; text-decoration: none; color: var(--color-text); transition: text-decoration-color 0.2s; }
         .about-link-list li a:hover { text-decoration: underline; text-decoration-color: var(--color-accent); }
         .about-link-list li a::after { content: ' \2197'; font-size: 0.8rem; color: var(--color-text-secondary); }
-        .coming-soon { font-size: 0.82rem; color: var(--color-text-secondary); }
-
         /* ── Writing page ────────────────────────────────────────── */
         .writing { max-width: var(--max-width); width: 100%; margin: 0 auto; padding: var(--space-lg) var(--space-md) var(--space-md); flex: 1; }
         .writing h1 { font-family: var(--font-display); font-size: 2.8rem; font-weight: 400; line-height: 1.1; letter-spacing: -0.02em; margin-bottom: var(--space-sm); }
