@@ -82,6 +82,7 @@
         .featured-article h3 a { text-decoration: none; color: var(--color-text); }
         .featured-article h3 a:hover { text-decoration: underline; text-decoration-color: var(--color-accent); }
         .featured-article-desc { font-size: 0.9rem; color: var(--color-text-secondary); line-height: 1.6; }
+        .writing-see-all { padding-top: var(--space-md); }
         .linkedin-section { padding-top: var(--space-md); }
         .linkedin-section h2 { font-family: var(--font-display); font-size: 1.3rem; font-weight: 400; color: var(--color-text-secondary); margin-bottom: var(--space-md); }
 
